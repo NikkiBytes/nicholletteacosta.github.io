@@ -1,13 +1,42 @@
-body {
+/*body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
-  color: #f5f6f7; }
+  color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+*/
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif; }
 
-p {
-  font-size: 16px; }
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8; }
 
-.margin {
-  margin-bottom: 45px; }
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("/assets/static/cats.jpg");
+  min-height: 100%;
+  opacity: 0.7; }
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 5px;
+  font-size: 50px;
+  color: #ffffff; }
 
 .bg-1 {
   background-color: #6B8E23;
@@ -24,7 +53,6 @@ p {
   /* White */
   color: #555555; }
 
-.b
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
