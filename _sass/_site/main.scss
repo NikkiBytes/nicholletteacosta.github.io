@@ -29,13 +29,13 @@ body, html {
 
 }
 .bgimg-2 {
-  background-image: url('/assets/static/brains.png');
+  background-image: url('/assets/static/cow.jpg');
   min-height: 100%;
   opacity: 0.8;
 
 }
 .bgimg-3 {
-  background-image: url('/assets/static/sunflower2.jpg');
+  background-image: url('/assets/static/sunflower.jpg');
   min-height: 100%;
   opacity: 0.8;
 
@@ -56,32 +56,25 @@ p, h3 {
   font-size: 25px;
   color: #FFFFFF;
 }
-
-.blog_bg
-{
-  font-size: 35px;
-  color: #c969c9;
-  background-color: #FFFFFF;
-}
-.about_me
-{
-  width: 50%;
-  font-size: 20px;
-  color: #000000;
-  background-color: #FFFFFF;
-}
-span {
+.title{
   font-size: 50px;
-  background-color: #FFFFFF;
-  color: #c969c9;
+  padding: 2px;
+
 }
-.bg_3 {
-  font-weight: bold;
-  font-size: 55px;
-  text-align: center;
-  color: #00FF00;
+.white_bg
+{
+  font-family:  Tahoma;
+  font-size: 35px;
+  padding: 3px;
+  color: #00FA9A;
 }
 
+.bg_3 {
+  font-size: 45px;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #000000;
+}
 
 .navbar {
   padding-top: 15px;
